@@ -1,0 +1,66 @@
+body {
+    background: gray;
+}
+
+aside {
+    float: left;
+    background: black;
+    color: white;
+    padding: 2.5%;
+    width: 20%;
+    height: 100vh;
+    border-right: 5px solid white
+}
+
+aside img {
+    width: 200px;
+    float: left;
+}
+
+aside .kartinka {
+    font-size: 40px;
+    margin-left: 55px;
+    font-weight: bold
+}
+
+aside h3 {
+    margin-top: 35px;
+    font-size: 35px;
+}
+
+aside ul {list-style: none}
+
+aside ul li {
+    color: white;
+    display: block;
+    margin-top: 10px;
+    transition: transform .6s ease;
+}
+
+aside ul li:hover , aside ul a:hover {
+    color: yellow;
+    text-decoration: none;
+    transform: scale(1.05);
+}
+
+main .features {
+    float: left;
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+    width:75%;
+}
+main .features h1 {font-size: 50px;}
+main .features p {font-size: 25px; margin: 20px auto;}
+
+.alert-warning {
+    width: 400px;
+    clear: both;
+    margin: 20px 30%;
+}
+
+form {
+    margin-left: 27%;
+    width: 500px;
+    margin-top: 1px;
+}

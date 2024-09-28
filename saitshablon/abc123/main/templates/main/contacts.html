@@ -1,0 +1,13 @@
+{% extends 'main/layout.html' %}
+
+{% block title %} Контакты {% endblock %}
+
+{% block content%}
+<div class="features">
+  <h1>Контакты</h1>
+  <p>TG: xyga794</p>
+  <a href="{% url 'home'%}"><button class='btn btn-danger'>На главную</button></a><br>
+  <a href="{% url 'about'%}"><button class='btn btn-info'>На страницу о нас</button></a><br>
+  <a href="{% url 'newshome'%}"><button class='btn btn-warning'>Новости</button></a><br>
+</div>
+{% endblock %}

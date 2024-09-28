@@ -1,0 +1,13 @@
+{% extends 'main/layout.html' %}
+
+{% block title %} О нас {% endblock %}
+
+{% block content%}
+<div class="features">
+  <h1>О нас</h1>
+  <p>Всё о жизни Арсения Полянского</p>
+  <a href="{% url 'home'%}"><button class='btn btn-danger'>На главную</button></a><br>
+  <a href="{% url 'contacts'%}"><button class='btn btn-success'>Контакты</button></a><br>
+  <a href="{% url 'newshome'%}"><button class='btn btn-warning'>Новости</button></a><br>
+</div>
+{% endblock %}
